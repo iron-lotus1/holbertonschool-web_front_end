@@ -107,3 +107,13 @@ text-align: var(--section-footer-align);
     padding: var(--footer-padding);
 }
 @import url("normalize.css");
+
+.navbar-menu {
+    float: right;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
