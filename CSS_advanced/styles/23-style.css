@@ -204,12 +204,12 @@ ul.row {
     background-color: var(--color-black);
 }
 
-.fotter-address {
+.footer-address {
     color: var(--text-color);
 }
 .social-link {
     display: block;
 }
 .social-link svg{
-    fill: var(--text-color)
+    fill: var(--text-color);
 }
