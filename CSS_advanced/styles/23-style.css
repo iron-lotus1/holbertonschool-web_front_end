@@ -1,3 +1,5 @@
+@import url("normalize.css");
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -135,9 +137,6 @@ h6 {
 .footer {
     padding: var(--footer-padding);
 }
-
-@import url("normalize.css");
-
 .navbar-menu {
     float: right;
 }
