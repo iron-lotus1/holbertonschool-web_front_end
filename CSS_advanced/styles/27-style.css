@@ -271,7 +271,7 @@ ul.row {
     width: 90rem;
     height: auto;
 }
-.section-hero > .section-title  {
+.section-hero .section-title  {
     margin-bottom: 5rem;
 }
 .section-hero .section-inner  {
