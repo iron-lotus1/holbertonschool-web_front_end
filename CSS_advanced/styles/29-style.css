@@ -73,12 +73,15 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
+
 .header {
     padding: var(--header-padding);
 }
+
 .header-logo{
     position: var(--header-logo-position);
 }
+
 .header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
@@ -165,6 +168,7 @@ h6 {
 .footer {
     padding: var(--footer-padding);
 }
+
 .navbar-menu {
     float: right;
 }
@@ -175,20 +179,7 @@ h6 {
     list-style: none;
     text-align: center;
 }
-.nav .nav-link::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--color-white);
-    width: 0;
-    height: 20%;
 
-}
-.nav .nav-item:hover .nav-link::before{
-    background-color: var(--color-primary);
-    width: 100%;
-}
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -200,13 +191,28 @@ h6 {
 
 .nav .nav-link {
     display: block;
-    position: relative;
     padding: 0.5rem 1rem;
+}
+
+.nav .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--color-white);
+    width: 0;
+    height: 20%;
+}
+
+.nav .nav-item:hover .nav-link::before {
+    background: var(--color-primary);
+    width: 100%;
 }
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
+
 ul.row {
     margin: 0;
     padding: 0;
@@ -221,6 +227,7 @@ ul.row {
 .col-1-3 {
   width: 33.33%;
 }
+
 .col-1-2 {
   width: 50%;
 }
@@ -230,9 +237,11 @@ ul.row {
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
+
 .footer ul{
     text-align: right;
 }
+
 .row::after {
     content: "";
     display: table;
@@ -272,6 +281,7 @@ ul.row {
     background-color: var(--color-primary);
     text-decoration: none;
 }
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
@@ -286,27 +296,33 @@ ul.row {
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
 }
+
 .card-testimonial {
     text-align: center;
 }
+
 .card-testimonial .card-avatar {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
+
 .card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
 }
+
 .section-hero {
     background-size: 90rem auto;
     width: 90rem;
     height: auto;
 }
+
 .section-hero .section-title  {
     margin-bottom: 5rem;
 }
+
 .section-hero .section-inner  {
     padding: 10rem 40rem 2rem 0;
 }
