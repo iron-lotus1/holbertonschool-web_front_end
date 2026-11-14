@@ -180,7 +180,7 @@ h6 {
     text-align: center;
 }
 
-.nav .nav-link::before {
+nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -191,7 +191,7 @@ h6 {
 
 }
 
-.nav .nav-item:hover .nav-link::before{
+nav .nav-item:hover .nav-link::before{
     background-color: var(--color-primary);
     width: 100%;
 }
