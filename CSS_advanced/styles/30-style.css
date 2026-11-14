@@ -322,7 +322,7 @@ ul.row {
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    object-position: bottom;
+    vertical-align: bottom;
 }
 
 .card-work .card-inner {
@@ -332,6 +332,7 @@ ul.row {
     right: -0.1rem;
     z-index: 1;
 }
+
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
