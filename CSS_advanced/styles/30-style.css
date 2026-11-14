@@ -330,6 +330,7 @@ ul.row {
     top: -0.1rem;
     left: -0.1rem;
     right: -0.1rem;
+    bottom: -0.1rem;
     z-index: 1;
 }
 .card-work:hover .card-inner {
