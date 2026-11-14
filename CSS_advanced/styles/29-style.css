@@ -187,8 +187,7 @@ h6 {
 
 .nav .nav-link {
     position: relative;
-    display: block;
-    padding: 0.5rem 1rem;
+
 }
 
 .nav .nav-link::before {
