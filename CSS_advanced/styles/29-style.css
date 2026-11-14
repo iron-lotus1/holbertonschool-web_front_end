@@ -35,7 +35,7 @@
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem;
-    --nav-item-link-hover: var(--color-white);
+    --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
@@ -73,15 +73,12 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-
 .header {
     padding: var(--header-padding);
 }
-
 .header-logo{
     position: var(--header-logo-position);
 }
-
 .header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
@@ -168,7 +165,6 @@ h6 {
 .footer {
     padding: var(--footer-padding);
 }
-
 .navbar-menu {
     float: right;
 }
@@ -178,22 +174,6 @@ h6 {
     padding: 0;
     list-style: none;
     text-align: center;
-}
-
-.nav .nav-link::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--color-white);
-    width: 0;
-    height: 20%;
-
-}
-
-.nav .nav-item:hover .nav-link::before{
-    background-color: var(--color-primary);
-    width: 100%;
 }
 
 .nav .nav-item {
@@ -211,8 +191,23 @@ h6 {
     padding: 0.5rem 1rem;
 }
 
+.nav .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 20%;
+}
+
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
+}
+
+.nav .nav-item:hover .nav-link::before {
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 ul.row {
